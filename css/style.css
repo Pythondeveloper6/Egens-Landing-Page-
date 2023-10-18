@@ -2,6 +2,17 @@ body{
     background-color: #E9EDF3; 
     font-family: 'Jost', sans-serif;
 }
+
+.mybackground {
+    background-color: #E9EDF3 !important;
+    /* transition: 1.5s ease-in; */
+  }
+  
+  .mybackground.scrolled {
+    background-color: white !important; 
+  }
+
+
 .nav-link{
     font-size: 18px;
     font-weight: 500;
