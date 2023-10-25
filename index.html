@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div id="mynav" class="container fixed-top  py-3 mybackground">
+    <div id="fullnav" class="mybackground fixed-top">
+      <div id="mynav" class="container py-3 ">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Egens</a>
@@ -46,6 +47,7 @@
             </div>
           </nav>
     </div>
+    </div>
 
     <div class="container my-5 py-5">
         <div class="row">
@@ -62,41 +64,13 @@
     </div>
 
 
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-4">
-                <h3> Creative Strategy </h3>
-                <p> Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat. </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <h3> Creative Strategy </h3>
-                <p> Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat. </p>
-            </div>
-        </div>
-    </div>
 
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-4">
-                <h3> Creative Strategy </h3>
-                <p> Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat. </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <h3> Creative Strategy </h3>
-                <p> Sed do eiusmod tempor incidiunt ation ullamco laboris nisi ut aloniq uip ex ea com consequat. </p>
-            </div>
-        </div>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
         $(window).scroll(function(){
-            $('#mynav').toggleClass('scrolled', $(this).scrollTop() > 500);
+            $('#fullnav').toggleClass('scrolled', $(this).scrollTop() > 300);
         });
     </script>
 
