@@ -1,6 +1,9 @@
 body{
-    background-color: #E9EDF3; 
     font-family: 'Jost', sans-serif;
+}
+
+.mainbacground{
+    background-color: #E9EDF3; 
 }
 
 .mybackground {
@@ -41,4 +44,12 @@ body{
     text-decoration: none;
     color: white;
     border-radius: 35px;
+}
+.feature-icon{
+    background-color: #f2f5fb;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 97px;
 }
