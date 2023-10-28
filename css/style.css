@@ -84,3 +84,51 @@ body{
     color: #4526b1;
     margin-left: 10px;
 }
+
+
+/* media queries */
+
+/* mobile */
+@media (max-width:576px) {
+    .main-title{
+        font-size: 36px;
+    }
+    .main-subtitle{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .banner-img{
+        margin-top: 40px;
+    }
+    .feature-card{
+        margin: 10px 0px;
+    }
+    .img2{
+        margin-top: 20px;
+    }
+    .service-title{
+        font-size: 30px;
+    }
+    .service-p{
+        font-size: 16px;
+    }
+    .service-section{
+        padding: 0px 10px !important;
+    }
+
+}
+
+
+/* tablet */
+@media (min-width:577px) and (max-width:991px){
+    .main-title{
+        font-size: 50px;
+    }
+}
+
+
+
+/* large */
+@media (min-width:992px) {
+    
+}
